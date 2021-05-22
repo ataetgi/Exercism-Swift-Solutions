@@ -13,7 +13,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build
-      run: for d in ./*/ ; do (cd "$d" && swift build -v); done
     - name: Run tests
       run: for d in ./*/ ; do (cd "$d" && swift test -v); done
