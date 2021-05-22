@@ -6,8 +6,8 @@ struct Hamming {
         if dna == against {
             return 0
         } else {
-            let zip = zip(dna, against)
-            return zip.filter({ $0 != $1 }).count
+            let result = zip(dna, against)
+            return result.filter({ $0 != $1 }).count
         }
     }
 }
