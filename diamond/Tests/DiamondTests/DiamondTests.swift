@@ -9,7 +9,7 @@ class DiamondTests: XCTestCase {
 
     func testLetterC() {
         let expected = [
-            " A  ",
+            "  A  ",
             " B B ",
             "C   C",
             " B B ",
